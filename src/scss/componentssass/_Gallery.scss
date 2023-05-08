@@ -1,0 +1,38 @@
+// .gallerydiv {
+//     display: block;
+//     border: black 5px;
+//     border-radius: 10px;
+//     height: 400px;
+//     width: 300px;
+//     background-color: aqua;
+//     margin: 10px;
+//     // box-sizing: border-box;
+//     overflow: hidden;
+
+
+// }
+
+// .gallerydiv2 {
+//     width: 400px;
+//     height: 300px;
+//     display: block;
+//     border: black 5px;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     margin: 10px;
+// }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+  }

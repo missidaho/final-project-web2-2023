@@ -1,0 +1,71 @@
+/* nav {
+    background-color: rgb(249, 58, 140);
+    width: 100%;
+  
+}
+body {
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-self: flex-end;
+    
+}
+.logo {
+    padding: 20px;
+    display: flex;
+}
+.navb {
+   
+} */
+/* --nav css 2 --- */
+.navb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: aquamarine;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    
+    
+}
+body {
+    margin: auto;
+}
+a:link {
+    text-decoration: none;
+}
+.checkbtn {
+    color: rgb(4, 4, 4);
+    font-size: 50px;
+    cursor: pointer;
+}
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+}
+@media screen and (max-width: 480px) {
+    .menu {
+        display: flex;
+    }
+    nav ul li {
+        display: block;
+        border-top:rgb(4, 4, 4) solid;
+        width: 100%;
+     
+    }
+
+}
+.menu {
+    /* display: none; */
+}

@@ -1,0 +1,35 @@
+.btndefault {
+    background-color: rgb(38, 0, 255);
+    height: 50px;
+    width: 95px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    transition-duration: .3s;
+    display: inline-block;
+    margin-left: 5px;
+  
+}
+.btndefault:hover, .hover {
+    background-color: rgb(184, 23, 50);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: .03s ease-in-out;
+   
+
+
+
+}
+.btndefault:active, 
+.btnactive {
+    background-color: rgb(249, 247, 248);
+    color: rgb(5, 41, 244);
+    box-shadow: rgb(168, 168, 168) 2px 2px 2px;
+   
+}
+.btn.disabled {
+    background-color: gray;
+    color: rgb(97, 93, 93);
+}

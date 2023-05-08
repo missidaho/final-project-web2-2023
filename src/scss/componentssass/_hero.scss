@@ -1,0 +1,33 @@
+.hero-img {
+    background-size: cover;
+    width: 100vw;
+    // min-height: 60vh;  
+    // position: absolute;
+    z-index: 0;
+    padding-bottom: none;
+    overflow: hidden;
+    height: 600px;
+    padding: 0;
+
+}
+.hero-text {
+    color: rgb(17, 16, 16);
+    transform: translate(50px, -300px);
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 40%;
+    font-size: larger;
+    padding: 20px;
+    background-color: rgba(246, 249, 249, 0.5);
+    display: block;
+    border-radius: 10px;
+    padding-bottom: none;
+   @media (max-width: 949px){
+      display: none; 
+   }
+}
+.hero {
+    margin: none;
+    height: 600px;
+    padding-bottom: none;
+}

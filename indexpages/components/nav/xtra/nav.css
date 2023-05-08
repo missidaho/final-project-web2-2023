@@ -1,0 +1,47 @@
+.logoimg {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    background-color: rgb(255, 0, 93);
+    justify-content: space-between;
+   
+}
+.linklist {
+display: flex;
+list-style: none;
+justify-content: space-around;
+gap: 5em;
+align-items: center;
+padding-right: 20px;
+padding-left: 20px;
+
+
+}
+body {
+    margin: auto 0;
+    width: 100vw;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+  
+}
+a:link:hover {
+    background-color: rgb(222, 45, 113);
+    text-decoration: none;
+}
+a:link:active {
+
+}
+a:link:visited {
+
+}
+@media screen and (max-width: 320px){
+.linklist {
+    flex-direction: column;
+}
+
+}
