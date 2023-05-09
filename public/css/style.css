@@ -625,6 +625,13 @@ h2 {
   }
 }
 
+@media (min-width: 1132px) {
+  .sponsor_pic {
+    display: block;
+    height: 275px;
+  }
+}
+
 .blockqoute {
   margin: 5px;
   padding: 10px;
