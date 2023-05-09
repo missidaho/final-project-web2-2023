@@ -316,7 +316,7 @@ table {
 }
 
 .footerdev {
-  background-color: #0011ff;
+  background-color: rgb(44, 44, 193);
   display: block;
   width: 100%;
   height: 200px;
