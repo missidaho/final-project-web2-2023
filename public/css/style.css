@@ -613,6 +613,18 @@ h2 {
   border-radius: 10px;
 }
 
+@media (max-width: 845px) {
+  .card_pictures {
+    display: block;
+    height: 230px;
+  }
+}
+@media (max-width: 321px) {
+  .card_pictures {
+    display: none;
+  }
+}
+
 .blockqoute {
   margin: 5px;
   padding: 10px;

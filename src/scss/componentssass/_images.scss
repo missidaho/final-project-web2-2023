@@ -1,0 +1,12 @@
+.card_pictures {
+    @media (max-width: 845px) {
+        display: block;
+        height: 230px;
+
+    }
+    @media (max-width: 321px) {
+        display: none;
+    
+
+    }
+}
